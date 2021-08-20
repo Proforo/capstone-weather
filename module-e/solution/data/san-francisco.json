@@ -1,0 +1,300 @@
+{
+  "location": "San Francisco, USA",
+  "unit": "imperial",
+  "current": {
+    "time": {
+      "hour": 11,
+      "minute": 25,
+      "light": "day"
+    },
+    "condition": {
+      "desc": "Hang onto your hats, San Francisco. No, seriously. It's a windy day.",
+      "type": "windy"
+    },
+    "temp": 54,
+    "high": 56,
+    "low": 47
+  },
+  "forecast": {
+    "columns": [
+      {
+        "label": "Time",
+        "full": null
+      },{
+        "label": "Conditions",
+        "full": null
+      },{
+        "label": "PoP",
+        "full": "Probability of precipitation"
+      },{
+        "label": "Temp",
+        "full":  "Temperature"
+      }
+    ],
+    "ranges": [
+      {
+        "mode": "hourly",
+        "records": [
+          {
+            "time": {
+              "label": "12:00 pm",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.1,
+            "temp": 55
+          },{
+            "time": {
+              "label": "1:00 pm",
+              "hour": 13,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.2,
+            "temp": 56
+          },{
+            "time": {
+              "label": "2:00 pm",
+              "hour": 14,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.2,
+            "temp": 54
+          },{
+            "time": {
+              "label": "3:00 pm",
+              "hour": 15,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.25,
+            "temp": 54
+          },{
+            "time": {
+              "label": "4:00 pm",
+              "hour": 16,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.25,
+            "temp": 51
+          },{
+            "time": {
+              "label": "5:00 pm",
+              "hour": 17,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.3,
+            "temp": 50
+          },{
+            "time": {
+              "label": "6:00 pm",
+              "hour": 18,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 48
+          },{
+            "time": {
+              "label": "7:00 pm",
+              "hour": 19,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 48
+          }
+        ]
+      },{
+        "mode": "tomorrow",
+        "records": [
+          {
+            "time": {
+              "label": "Morning",
+              "hour": 8,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Foggy conditions",
+              "type": "foggy"
+            },
+            "precipitation": 0.1,
+            "temp": 48
+          },{
+            "time": {
+              "label": "Afternoon",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.15,
+            "temp": 55
+          },{
+            "time": {
+              "label": "Evening",
+              "hour": 18,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.05,
+            "temp": 53
+          },{
+            "time": {
+              "label": "Overnight",
+              "hour": 20,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.0,
+            "temp": 50
+          }
+        ]
+      },{
+        "mode": "week",
+        "records": [
+          {
+            "time": {
+              "label": "Sunday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.15,
+            "temp": 55
+          },{
+            "time": {
+              "label": "Monday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.0,
+            "temp": 52
+          },{
+            "time": {
+              "label": "Tuesday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.20,
+            "temp": 54
+          },{
+            "time": {
+              "label": "Wednesday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Rainy conditions",
+              "type": "rain"
+            },
+            "precipitation": 0.95,
+            "temp": 53
+          },{
+            "time": {
+              "label": "Thursday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly cloud conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.2,
+            "temp": 56
+          },{
+            "time": {
+              "label": "Friday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly cloud conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 58
+          },{
+            "time": {
+              "label": "Saturday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Foggy conditions",
+              "type": "foggy"
+            },
+            "precipitation": 0.3,
+            "temp": 52
+          }
+        ]
+      }
+    ]
+  }
+}

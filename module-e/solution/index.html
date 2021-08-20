@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherful Weather</title>
+    <meta name="description" content="A weatherful weather application interface">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="layout">
+      <header class="header container">
+        <a href="index.html" class="logo"><img src="img/weather-logo.svg" height="46" width="160" alt="Weatherful Weather logo"></a>
+        <ul class="no-markers units">
+          <li><button class="btn" id="setC"><abbr title="Degrees celsius">C</abbr></button></li>
+          <li><button class="btn" id="setF"><abbr title="Degrees fahrenheit">F</abbr></button></li>
+        </ul>
+      </header>
+      <main class="container weather">
+        <article class="current">
+          <picture>
+            <source srcset="" media="(min-width: 50rem)" id="iconLg">
+            <img src="" alt="" id="iconSm">
+          </picture>
+          <h1 class="heading">Current Conditions</h1>
+          <p class="desc" id="desc"></p>
+          <data value="" class="temp" id="currTemp"></data>
+          <ul class="no-markers high-low">
+            <li class="low">
+              <img src="img/temp-low.svg" alt="Daily low">
+              <data value="" id="highTemp"></data>
+            </li>
+            <li class="high">
+              <data value="" id="lowTemp"></data>
+              <img src="img/temp-high.svg" alt="Daily hight">
+            </li>
+          </ul>
+        </article>
+        <aside class="forecast">
+          <ul class="no-markers tabs" id="tabs">
+          </ul>
+          <table class="ranges" id="ranges">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Conditions</th>
+                <th><abbr title="Probability of precipitation">PoP</abbr></th>
+                <th><abbr title="Temperature">Temp</abbr></th>
+              </tr>
+            </thead>
+          </table>
+        </aside>
+      </main>
+      <footer class="footer">
+        <div class="container footer-group">
+          <p class="tagline">It's not always wonderful, but it is always Weatherful!</p>
+          <p class="madeby">Created with ❤️ by You!</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>

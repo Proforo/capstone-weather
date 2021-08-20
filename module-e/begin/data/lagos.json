@@ -1,0 +1,300 @@
+{
+  "location": "Lagos, Nigeria",
+  "unit": "metric",
+  "current": {
+    "time": {
+      "hour": 20,
+      "minute": 25,
+      "light": "night"
+    },
+    "condition": {
+      "desc": "Dress lightly tonight, Lagos. It's going to be clear and hot.",
+      "type": "clear"
+    },
+    "temp": 30,
+    "high": 33,
+    "low": 27
+  },
+  "forecast": {
+    "columns": [
+      {
+        "label": "Time",
+        "full": null
+      },{
+        "label": "Conditions",
+        "full": null
+      },{
+        "label": "PoP",
+        "full": "Probability of precipitation"
+      },{
+        "label": "Temp",
+        "full":  "Temperature"
+      }
+    ],
+    "ranges": [
+      {
+        "mode": "Hourly",
+        "records": [
+          {
+            "time": {
+              "label": "9:00 pm",
+              "hour": 21,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 1.0,
+            "temp": 29
+          },{
+            "time": {
+              "label": "10:00 pm",
+              "hour": 22,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.9,
+            "temp": 27
+          },{
+            "time": {
+              "label": "11:00 pm",
+              "hour": 23,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.8,
+            "temp": 27
+          },{
+            "time": {
+              "label": "12:00 am",
+              "hour": 0,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.5,
+            "temp": 26
+          },{
+            "time": {
+              "label": "1:00 am",
+              "hour": 1,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.25,
+            "temp": 25
+          },{
+            "time": {
+              "label": "2:00 am",
+              "hour": 2,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 24
+          },{
+            "time": {
+              "label": "3:00 am",
+              "hour": 3,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.0,
+            "temp": 25
+          },{
+            "time": {
+              "label": "4:00 am",
+              "hour": 4,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.0,
+            "temp": 25
+          }
+        ]
+      },{
+        "mode": "Tomorrow",
+        "records": [
+          {
+            "time": {
+              "label": "Morning",
+              "hour": 8,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.0,
+            "temp": 28
+          },{
+            "time": {
+              "label": "Afternoon",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.15,
+            "temp": 32
+          },{
+            "time": {
+              "label": "Evening",
+              "hour": 18,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 30
+          },{
+            "time": {
+              "label": "Overnight",
+              "hour": 20,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 27
+          }
+        ]
+      },{
+        "mode": "Week",
+        "records": [
+          {
+            "time": {
+              "label": "Sunday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 32
+          },{
+            "time": {
+              "label": "Monday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 33
+          },{
+            "time": {
+              "label": "Tuesday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.20,
+            "temp": 35
+          },{
+            "time": {
+              "label": "Wednesday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.25,
+            "temp": 34
+          },{
+            "time": {
+              "label": "Thursday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly cloud conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.25,
+            "temp": 32
+          },{
+            "time": {
+              "label": "Friday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.1,
+            "temp": 32
+          },{
+            "time": {
+              "label": "Saturday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.0,
+            "temp": 33
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --col-a: rgb(255, 255, 247);
+  --col-b: rgb(177, 213, 255);
+  --col-c: rgb(184, 187, 205);
+  --shade-dark: rgba(0, 0, 0, 0.1);
+  --shade-light: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: rgb(90, 154, 232);
+  background-image: linear-gradient(rgb(90, 154, 232), rgb(21, 101, 162));
+  background-attachment: fixed;
+  font: normal 400 1rem/1 'Roboto', helvetica, arial, sans-serif;
+  color: var(--col-a);
+  text-align: center;
+  margin: 0;
+}
+
+/******** UTILITY ********/
+.container {
+  padding: 0 1rem;
+}
+.no-markers {
+  list-style-type: none;
+  padding: 0;
+}
+.btn {
+  background-color: transparent;
+  font: normal 400 1rem/1 'Roboto', helvetica, arial, sans-serif;
+  color: var(--col-a);
+  padding: 0.75rem 1rem;
+  border: 3px solid transparent;
+  border-radius: 0.25rem;
+}
+.btn.active {
+  border-color: var(--col-a);
+  font-weight: 700;
+}
+
+/******** HEADER ********/
+.logo {
+  margin: 1rem 0;
+}
+
+/******** CURRENT ********/
+.heading {
+  font-size: 1rem;
+  color: var(--col-b);
+  text-transform: uppercase;
+}
+.desc {
+  font-size: 1.25rem;
+}
+.temp {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.unit {
+  font-size: 2rem;
+}
+.high-low {
+  font-size: 2rem;
+}
+.low {
+  color: var(--col-b);
+}
+
+/******** FORECAST ********/
+.ranges {
+  background-color: var(--shade-dark);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+.ranges th {
+  font-weight: 400;
+  color: var(--col-b);
+  line-height: 2;
+}
+.range {
+  font-size: 1.25rem;
+}
+.range-temp {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/******** FOOTER ********/
+.footer {
+  background-color: var(--shade-dark);
+  color: var(--col-c);
+  line-height: 1.5;
+  padding: 1rem 0 2rem 0;
+  margin-top: 2rem;
+}
+.tagline, .madeby {
+  margin: 0;
+}

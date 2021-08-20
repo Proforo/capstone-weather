@@ -1,0 +1,300 @@
+{
+  "location": "Toronto, Canada",
+  "unit": "metric",
+  "current": {
+    "time": {
+      "hour": 15,
+      "minute": 25,
+      "light": "day"
+    },
+    "condition": {
+      "desc": "Get your shovels ready, Toronto. Today it's going to snow!",
+      "type": "snow"
+    },
+    "temp": 0,
+    "high": 3,
+    "low": -1
+  },
+  "forecast": {
+    "columns": [
+      {
+        "label": "Time",
+        "full": null
+      },{
+        "label": "Conditions",
+        "full": null
+      },{
+        "label": "PoP",
+        "full": "Probability of precipitation"
+      },{
+        "label": "Temp",
+        "full":  "Temperature"
+      }
+    ],
+    "ranges": [
+      {
+        "mode": "hourly",
+        "records": [
+          {
+            "time": {
+              "label": "3:00 pm",
+              "hour": 15,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Snowy conditions",
+              "type": "snow"
+            },
+            "precipitation": 1.0,
+            "temp": -1
+          },{
+            "time": {
+              "label": "4:00 pm",
+              "hour": 16,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Sleet conditions",
+              "type": "sleet"
+            },
+            "precipitation": 0.9,
+            "temp": 0
+          },{
+            "time": {
+              "label": "5:00 pm",
+              "hour": 17,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Rainy conditions",
+              "type": "rain"
+            },
+            "precipitation": 0.8,
+            "temp": 0
+          },{
+            "time": {
+              "label": "6:00 pm",
+              "hour": 18,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Foggy conditions",
+              "type": "foggy"
+            },
+            "precipitation": 0.5,
+            "temp": 1
+          },{
+            "time": {
+              "label": "7:00 pm",
+              "hour": 19,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.25,
+            "temp": 1
+          },{
+            "time": {
+              "label": "8:00 pm",
+              "hour": 20,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.1,
+            "temp": 2
+          },{
+            "time": {
+              "label": "9:00 pm",
+              "hour": 21,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly Cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.0,
+            "temp": 2
+          },{
+            "time": {
+              "label": "10:00 pm",
+              "hour": 22,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.0,
+            "temp": 3
+          }
+        ]
+      },{
+        "mode": "tomorrow",
+        "records": [
+          {
+            "time": {
+              "label": "Morning",
+              "hour": 8,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Clear conditions",
+              "type": "clear"
+            },
+            "precipitation": 0.1,
+            "temp": 3
+          },{
+            "time": {
+              "label": "Afternoon",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.5,
+            "temp": 4
+          },{
+            "time": {
+              "label": "Evening",
+              "hour": 18,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.3,
+            "temp": 2
+          },{
+            "time": {
+              "label": "Overnight",
+              "hour": 20,
+              "minute": 0,
+              "light": "night"
+            },
+            "condition": {
+              "desc": "Partly cloudy conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.2,
+            "temp": -2
+          }
+        ]
+      },{
+        "mode": "week",
+        "records": [
+          {
+            "time": {
+              "label": "Sunday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Cloudy conditions",
+              "type": "cloudy"
+            },
+            "precipitation": 0.5,
+            "temp": 4
+          },{
+            "time": {
+              "label": "Monday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Snowy conditions",
+              "type": "snow"
+            },
+            "precipitation": 0.8,
+            "temp": 2
+          },{
+            "time": {
+              "label": "Tuesday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Windy conditions",
+              "type": "windy"
+            },
+            "precipitation": 0.20,
+            "temp": 1
+          },{
+            "time": {
+              "label": "Wednesday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Sleet conditions",
+              "type": "sleet"
+            },
+            "precipitation": 0.85,
+            "temp": 0
+          },{
+            "time": {
+              "label": "Thursday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly cloud conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.25,
+            "temp": -2
+          },{
+            "time": {
+              "label": "Friday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Partly cloud conditions",
+              "type": "partlycloudy"
+            },
+            "precipitation": 0.1,
+            "temp": -1
+          },{
+            "time": {
+              "label": "Saturday",
+              "hour": 12,
+              "minute": 0,
+              "light": "day"
+            },
+            "condition": {
+              "desc": "Snowy conditions",
+              "type": "snow"
+            },
+            "precipitation": 0.9,
+            "temp": -2
+          }
+        ]
+      }
+    ]
+  }
+}
